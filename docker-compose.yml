@@ -3,6 +3,6 @@ services:
     image: nginx:latest
     container_name: lab10_2_nginx
     ports:
-      - "8085:80"
+      - "9000:80"
     volumes:
       - ./html:/usr/share/nginx/html
